@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\ClientController;
+use App\Http\Controllers\InvoiceController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,5 +21,8 @@ Route::get('/', function () {
 });
 
 Auth::routes();
+Route::resource('products', 'ProductController');
+Route::resource('clients', 'ClientController');
+Route::resource('invoice', 'InvoiceController');
 
 Route::get('/home', 'HomeController@index')->name('home');
