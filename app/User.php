@@ -39,8 +39,9 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    // Relationships
     public function invoice()
     {
-        return HasMany(Invoice::class);
+        return $this->hasMany(Invoice::class);
     }
 }
