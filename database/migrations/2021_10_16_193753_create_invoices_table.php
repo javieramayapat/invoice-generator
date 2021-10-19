@@ -15,7 +15,7 @@ class CreateInvoicesTable extends Migration
     {
         Schema::create('invoices', function (Blueprint $table) {
             $table->id();
-            $table->string('pdf_url');
+            $table->string('pdf_url')->nullable();
 
             //Relationships
             $table->foreignId('user_id')
