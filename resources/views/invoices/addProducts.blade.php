@@ -78,7 +78,7 @@
 
                         {{-- Listar productos de tabla intermedia --}}
                         <div class="row">
-                            <table class="table table-striped table-hover text-center">
+                            <table class="table table-striped table-hover text-center table-responsive-md">
                                 <thead>
                                     <tr>
                                         <th>Descripción del producto</th>

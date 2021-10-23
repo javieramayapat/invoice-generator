@@ -17,7 +17,7 @@
                             </div>
                         @endif
 
-                        <table class="table table-light table-hover">
+                        <table class="table table-light table-hover table-responsive-md">
                             <thead>
                                 <tr>
                                     <th>#</th>
@@ -47,8 +47,8 @@
                                     </tr>
                                 @endforeach
                             </tbody>
-
                         </table>
+                        {{ $invoices->links() }}
                     </div>
                 </div>
             </div>
