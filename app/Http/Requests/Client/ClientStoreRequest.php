@@ -24,9 +24,9 @@ class ClientStoreRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'           => 'required|string|max:255|alpha',
-            'first_surname'  => 'required|string|max:255|alpha',
-            'second_surname' => 'required|string|max:255|alpha',
+            'name'           => 'required|string|max:255|regex:/^[a-zA-Z ]*$/',
+            'first_surname'  => 'required|string|max:255|regex:/^[a-zA-Z ]*$/',
+            'second_surname' => 'required|string|max:255|regex:/^[a-zA-Z ]*$/',
             'rfc'            => 'required|string|max:13',
             'address'        => 'required|max:255',
             'email'          => 'required|unique:clients,email'

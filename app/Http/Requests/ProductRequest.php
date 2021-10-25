@@ -24,8 +24,8 @@ class ProductRequest extends FormRequest
     public function rules()
     {
         return [
-            // We can use alpha to check if is the string is alphabetical.
-            'name' => 'required|string|max:255|alpha',
+            // Change alpha with a regex
+            'name' => 'required|string|max:255|regex:/^[a-zA-Z ]*$/',
             'value' => 'required|min:0|numeric'
         ];
     }
