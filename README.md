@@ -67,16 +67,16 @@ php artisan serve
 ```
 
 ## 📊 Physical Database Model
-![](public/images/preview/Invoice-generator-Login.svg)
+![](public/images/preview/ER-Invoice-generator.png)
 ## 🧩 Mockups
 <details>
     <summary>🪧 Sketches</summary>
-     ![](public/images/preview/Invoice-generator-Login.svg)
-     ![](public/images/preview/Invoice-generator-Home.svg)
-     ![](public/images/preview/Invoice-generator-Productos.svg)
-     ![](public/images/preview/Invoice-generator-facturas-index.svg)
-     ![](public/images/preview/Invoice-generator-nueva-factura.svg)
-     ![](public/images/preview/Invoice-generator-add-products.png)
+    <img src="public/images/preview/Invoice-generator-Login.svg" alt="Login" width="50%"> 
+    <img src="public/images/preview/Invoice-generator-Home.svg" alt="Home" width="50%">
+    <img src="public/images/preview/Invoice-generator-Productos.svg" alt="Products" width="50%">
+    <img src="public/images/preview/Invoice-generator-facturas-index.svg" alt="Ivoice index" width="50%">
+    <img src="public/images/preview/Invoice-generator-nueva-factura.svg" alt="New invoice" width="50%">
+    <img src="public/images/preview/Invoice-generator-add-products.png" alt="Add products to invoice" width="50%">
 </details>
 
 
