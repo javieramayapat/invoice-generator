@@ -71,12 +71,12 @@ php artisan serve
 ## 🧩 Mockups
 <details>
     <summary>🪧 Sketches</summary>
-    <img src="public/images/preview/Invoice-generator-Login.svg" alt="Login" width="50%"> 
-    <img src="public/images/preview/Invoice-generator-Home.svg" alt="Home" width="50%">
-    <img src="public/images/preview/Invoice-generator-Productos.svg" alt="Products" width="50%">
-    <img src="public/images/preview/Invoice-generator-facturas-index.svg" alt="Ivoice index" width="50%">
-    <img src="public/images/preview/Invoice-generator-nueva-factura.svg" alt="New invoice" width="50%">
-    <img src="public/images/preview/Invoice-generator-add-products.png" alt="Add products to invoice" width="50%">
+    <img src="public/images/preview/Invoice-generator-Login.svg" alt="Login"> 
+    <img src="public/images/preview/Invoice-generator-Home.svg" alt="Home">
+    <img src="public/images/preview/Invoice-generator-Productos.svg" alt="Products">
+    <img src="public/images/preview/Invoice-generator-facturas-index.svg" alt="Ivoice index">
+    <img src="public/images/preview/Invoice-generator-nueva-factura.svg" alt="New invoice">
+    <img src="public/images/preview/Invoice-generator-add-products.png" alt="Add products to invoice">
 </details>
 
 
